@@ -1,0 +1,256 @@
+[
+  {
+    "name": "french toast",
+    "price": 150,
+    "category": "break fast",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/pancakes-with-berries-syrup-rustic-style_2829-13973.jpg?t=st=1711971359~exp=1711974959~hmac=67590518f668cd4abb5ca56f17e8abe2a13229b762c317f9dea4031f606ef21a&w=360",
+      "https://img.freepik.com/free-photo/cheesecakes-with-sour-cream-decorated-with-berries_2829-8281.jpg?t=st=1711971378~exp=1711974978~hmac=e1e9dfa7674f46fbd507e7563c62c382b806a1c9ce6ac970044e6735bcde0b69&w=740",
+      "https://img.freepik.com/free-photo/pancakes-with-nuts-vanilla-cream-strawberry-sauce-top_114579-3044.jpg?t=st=1711971398~exp=1711974998~hmac=5cee5ba2a77366e9292c52c1505a16d24662c466e223e56ee162a6edf4ee41f6&w=740"
+    ]
+  },
+  {
+    "name": "salad",
+    "price": 150,
+    "category": "break fast",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/top-view-vegan-salad-with-fresh-ingredients-plate-pepper-black-cutting-board_179666-47300.jpg?t=st=1711971164~exp=1711974764~hmac=f5fce9ee270f43f1a1d21a990979d047150b8f3c9f9cd14fc45c4761aac6d029&w=360",
+      "https://img.freepik.com/free-photo/fresh-vegetables-colorful-sliced-such-as-cucumbers-red-tomatoes-onion-wooden-rustic-surface_140725-14178.jpg?t=st=1711971259~exp=1711974859~hmac=e1eca4a002ac769692a147ccb33e97501cba8b56d893ef76abdba28feef84c84&w=740",
+      "https://img.freepik.com/free-photo/greek-salad-with-fresh-tomato-cucumber-red-onion-basil-feta-cheese-black-olives-italian-herbs_2829-4480.jpg?t=st=1711971292~exp=1711974892~hmac=ffca4f0638e2411e2a0ea89f3f73f52c578cfeb77859dd72ca6801c4e87e51bf&w=740"
+    ]
+  },
+  {
+    "name": "pizza",
+    "price": 150,
+    "category": "lunch",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/crispy-mixed-pizza-with-olives-sausage_140725-3095.jpg?t=st=1711959472~exp=1711963072~hmac=df1322f23cfa911b9e62b009bba7ef9544abd1dc4a6198000abf4d4a962eeb40&w=740",
+      "https://img.freepik.com/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg?t=st=1711959486~exp=1711963086~hmac=ef80614be2678c4c3d6c2318032838bd44e24b8196dab4379c22b91c2ca1e7d5&w=740",
+      "https://img.freepik.com/free-photo/chicken-pizza-with-bell-peppers-tomato-cheese-round-wooden-board_140725-10493.jpg?t=st=1711959504~exp=1711963104~hmac=76c3aa751d1795b4407cc8530fcb31f0705738d0538b6cd10ef90845670e3641&w=740"
+    ]
+  },
+  {
+    "name": "burger",
+    "price": 150,
+    "category": "lunch",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/big-sandwich-hamburger-burger-with-beef-red-onion-tomato-fried-bacon_2829-5398.jpg?t=st=1711959547~exp=1711963147~hmac=4788ce2ec4c4496df7067c80c7279b4bb7a7561e275394078a008cf286acc99f&w=740",
+      "https://img.freepik.com/free-photo/sandwich-with-chicken-burger-tomatoes-lettuce_2829-16493.jpg?t=st=1711959557~exp=1711963157~hmac=604197f00a7b4d3d6aa115200f506adb43309ce2129f7a429a21767306a306f4&w=740",
+      " https://img.freepik.com/free-photo/big-sandwich-hamburger-burger-with-beef-red-onion-tomato-fried-bacon_2829-5398.jpg?t=st=1711959547~exp=1711963147~hmac=4788ce2ec4c4496df7067c80c7279b4bb7a7561e275394078a008cf286acc99f&w=740"
+    ]
+  },
+  {
+    "name": "sushi",
+    "price": 150,
+    "category": "lunch",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/korean-food-kim-bap-steamed-rice-with-vegetables-seaweed_1150-43007.jpg?t=st=1711959596~exp=1711963196~hmac=e37311f740b0bef9f5aea671ecc6874cf6c231fed1889936f6964fe95cd07ba9&w=740",
+      "https://img.freepik.com/free-photo/korean-food-kim-bap-steamed-rice-with-vegetables-seaweed_1150-42977.jpg?t=st=1711959610~exp=1711963210~hmac=f5513999ab9d7b368a826c03f2c9b8a590593904aadabd47ab6db80a470e0cbf&w=360",
+      "https://img.freepik.com/free-photo/korean-food-kim-bap-steamed-rice-with-vegetables-seaweed_1150-42974.jpg?t=st=1711959638~exp=1711963238~hmac=b1a706d85b04c9e16066651d9594229953b4f30374bd88097fd263c8957656e3&w=740"
+    ]
+  },
+  {
+    "name": "coffee",
+    "price": 150,
+    "category": "beverages",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/cup-coffee-with-heart-drawn-foam_1286-70.jpg?t=st=1711959680~exp=1711963280~hmac=55d1fe1aaea1df762a171c5d8ea93269b224de06fff657410347b80370348593&w=740",
+
+      "https://img.freepik.com/free-photo/front-view-cup-cappuccino-with-cookies-book-table_141793-2825.jpg?t=st=1711959708~exp=1711963308~hmac=754800deb50a322d7429dd46265e1a2832800fd68ed0fe59b3caa376ba0cea68&w=740",
+
+      "https://img.freepik.com/free-photo/hot-chocolate-served-with-cookies_140725-1153.jpg?t=st=1711959754~exp=1711963354~hmac=13a64d129cb590969a5f0dbc17ac9680ed502f6d75a3446828cedab279cfe515&w=740"
+    ]
+  },
+  {
+    "name": "chocolate smoothie",
+    "price": 150,
+    "category": "beverages",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/chocolate-smoothie-with-choco-syrup-branch-bananas_114579-33830.jpg?t=st=1711959789~exp=1711963389~hmac=96ea6c1a71b822ae2303933ec00fb9e75ec057aee312097a87a0ac262bebbae8&w=360",
+
+      "https://img.freepik.com/free-photo/glass-filled-with-chocolate-ice-cream-dessert_23-2148425396.jpg?t=st=1711959845~exp=1711963445~hmac=fe7b46d7bdf6fb5f3151c0052556be474563ae85d6abd88c49ace3ad11d57f40&w=360",
+
+      "https://img.freepik.com/free-photo/front-view-chocolate-milkshake-with-pretzels-straws_23-2148707841.jpg?t=st=1711959890~exp=1711963490~hmac=6a33f6015738abd50ae3cf5aa656012d2960d1ba76e015e8924b979a7b55c64d&w=360"
+    ]
+  },
+  {
+    "name": "strawberry smoothie",
+    "price": 150,
+    "category": "beverages",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/mixed-berry-smoothie-summer-drink_53876-18233.jpg?t=st=1711966608~exp=1711970208~hmac=b6f5df14c241ca2754077886ed17f9bd6a65d92f62cf48bdd08f1db48ea69e4e&w=360",
+
+      "https://img.freepik.com/free-photo/mixed-berry-smoothie-summer-drink_53876-33868.jpg?t=st=1711966674~exp=1711970274~hmac=eb6771eff787aa38360867750bf89a850df3a63d3f766971d57ce06fc7029719&w=360",
+
+      "https://img.freepik.com/free-photo/top-view-jar-with-chia-seeds-fruite-puree_23-2148750228.jpg?t=st=1711966695~exp=1711970295~hmac=1de99d8b6eab380b32a81d348441a1b884f88b2a40056cb9f1dccb4b32bb8111&w=360"
+    ]
+  },
+  {
+    "name": "mocktail",
+    "price": 150,
+    "category": "beverages",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/elegant-vegan-alcohol-arrangement_23-2149337764.jpg?t=st=1711966735~exp=1711970335~hmac=3193def0db6e47675601ea363fcfe0562100e877ced974d3803c134c25301b86&w=360",
+
+      "https://img.freepik.com/free-photo/exotic-cocktail-with-cherry_181624-718.jpg?t=st=1711966746~exp=1711970346~hmac=775746157cb543f90fc0d1605a1fd9eae484e06e67f8b57b173f404b70c5531c&w=360",
+
+      "https://img.freepik.com/free-photo/exotic-cocktail-with-lemons_181624-2762.jpg?t=st=1711966755~exp=1711970355~hmac=09856114e57295e13581467110b1482f920a6b98e99169a2d2e25401a5eca4c4&w=360"
+    ]
+  },
+  {
+    "name": "pink mocktail",
+    "price": 150,
+    "category": "beverages",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/light-pink-fizzy-drink-with-lemon-slice-garnished-with-marshmellow_140725-6702.jpg?t=st=1711966788~exp=1711970388~hmac=2f113615c7403fe65f5256a6dcef94a765df669536cd67917b8cc33187c4beda&w=740",
+      "https://img.freepik.com/free-photo/strawberry-cocktail-garnished-with-strawberry-lemon-slice_140725-5941.jpg?t=st=1711966804~exp=1711970404~hmac=ae36028f4a6bb6ef16489413b8693a84e9371ad368a7b4694a1dddb29f65e148&w=360",
+      "https://img.freepik.com/free-photo/strawberry-cocktail-with-shaved-ice-garnished-with-lime-strawberry_140725-600.jpg?t=st=1711966814~exp=1711970414~hmac=5e9ddf75225467b5db616c011a57bb49e26d58510ec5da8cbc4286ef078ca5f3&w=740"
+    ]
+  },
+  {
+    "name": "thandoori",
+    "price": 150,
+    "category": "finger foods",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/side-view-baked-chicken-with-cucumber-lemon-seasoning-bread-table_141793-4757.jpg?t=st=1711967378~exp=1711970978~hmac=350c450a677c16df0b817a013520a6fc178cad06028d90e098ffc7d83961d894&w=740",
+
+      "https://img.freepik.com/free-photo/delicious-chicken-table_144627-8758.jpg?t=st=1711967408~exp=1711971008~hmac=e3cea203ad8f1908c14a0341b17fefe9530b8edd6493e3f3eede58db6df8a8f1&w=740",
+
+      "https://img.freepik.com/free-photo/side-view-chicken-kebab-lavash-served-with-fresh-herbs-onion-adjika-sauce_141793-2957.jpg?t=st=1711967422~exp=1711971022~hmac=edabc7e06def528f30af9e9cf87a47d1ff247c381131d01b8530788d14f4a87b&w=360"
+    ]
+  },
+  {
+    "name": "french fries",
+    "price": 150,
+    "category": "finger foods",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/front-view-fried-potatoes-tasty-french-fries-inside-plate-dark-surface-food-meal-dinner-dish-ingredients-potato_140725-53217.jpg?t=st=1711967187~exp=1711970787~hmac=bb2a54308192613cf3a883ccca67645e41b0cc932c7b3b88005c4eb77b824a39&w=740",
+
+      "https://img.freepik.com/free-photo/crispy-french-fries-with-ketchup-mayonnaise_1150-26587.jpg?t=st=1711967214~exp=1711970814~hmac=a0807ec2e7cb5e95b6f37554c23967d38e448a0caedcaa2b09be8527d46c6477&w=740",
+
+      "https://img.freepik.com/free-photo/top-view-french-fries-paper-with-salt-copy-space_23-2148701529.jpg?t=st=1711967222~exp=1711970822~hmac=b18f7a845afc35fd43cea165784c0643db91146f3eb3d762290e0ee1fd375462&w=740"
+    ]
+  },
+  {
+    "name": "spring roll",
+    "price": 150,
+    "category": "finger foods",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/crepes-russian-blinchik-served-with-white-cheese_114579-2112.jpg?t=st=1711967269~exp=1711970869~hmac=0ac1a05c035db467a5415d366fd32b02763a97298f18a2a97419ef5b7ff9b403&w=740",
+
+      "https://img.freepik.com/free-photo/blinchik-rolls-cut-into-two-served-with-sauce_114579-2520.jpg?t=st=1711967291~exp=1711970891~hmac=1ee589a3b853c3ab154ea57ce925f6a54af94533e37f0966142dea466c59d21a&w=740",
+
+      "https://img.freepik.com/free-photo/russian-blinchik-crepes-with-oregano-leaves-tomato_114579-2269.jpg?t=st=1711967277~exp=1711970877~hmac=6c6e07a1a4e8e07e8559d845b943601d2b345ac74c301ea4af9e1358bc7dec6b&w=740"
+    ]
+  },
+  {
+    "name": "nachos",
+    "price": 150,
+    "category": "finger foods",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/freshly-grilled-beef-vegetable-taco-plate-generative-ai_188544-8038.jpg?t=st=1711967321~exp=1711970921~hmac=32377cc942bef55a7832922b22ce928d76813d32518cdfc709ed72149611b13d&w=740",
+
+      "https://img.freepik.com/free-photo/mexican-nacho-chips-salsa-dip-bowl-wooden_2829-11158.jpg?t=st=1711967333~exp=1711970933~hmac=268342664e775b6f88ffe9a9e1763bd7e6380daf1607cfcbefb4304d0b14e9a2&w=740",
+
+      "https://img.freepik.com/free-photo/mexican-nacho-chips-salsa-dip-bowl_2829-14457.jpg?t=st=1711967343~exp=1711970943~hmac=f2403b62872697da167935307c7ba12adab0085bd52c0afa89b413145b809ec2&w=740"
+    ]
+  },
+  {
+    "name": "redwelvet cake",
+    "price": 150,
+    "category": "desserts",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/front-view-red-cake-slice-fruit-cake-piece-inside-plate-with-fresh-strawberries-grey_140725-20811.jpg?t=st=1711967487~exp=1711971087~hmac=28cadeb45da3a6ee447bcff19e5cdd424133bb8a5a7dcc911f7e609f8960cfdc&w=740",
+
+      "https://img.freepik.com/free-photo/front-view-delicious-chocolate-cake-sliced-with-choco-cream-fresh-red-cranberries_140725-20452.jpg?t=st=1711967498~exp=1711971098~hmac=2954dfdb9705824afaef27886612f6d2757aa77fb5296347206e4cf1b839d57b&w=740",
+
+      "https://img.freepik.com/free-photo/front-view-red-cake-slice-fruit-cake-piece-inside-plate-with-fresh-cranberries-grey_140725-20810.jpg?t=st=1711967511~exp=1711971111~hmac=b7d158ee1f0dd12f961cb53f41ad692093f2bfc669a0cfd2afb704c625bb3085&w=740"
+    ]
+  },
+  {
+    "name": "brownies",
+    "price": 150,
+    "category": "desserts",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/slice-chocolate-brownie-with-walnut-vanilla-ice-cream_114579-878.jpg?t=st=1711967545~exp=1711971145~hmac=ec52207b28142958091ff7fd68b73ee6cfeb2c0d5b7583a49d0b441b9c843415&w=740",
+
+      "https://img.freepik.com/free-photo/tasty-homemade-tiramisu-cake_114579-85350.jpg?t=st=1711967555~exp=1711971155~hmac=510fe3c4070a7c75c966a610fc3ac226e51204a37499a715fc27560834a658cb&w=740",
+
+      "https://img.freepik.com/free-photo/tasty-homemade-tiramisu-cake_114579-35114.jpg?t=st=1711967568~exp=1711971168~hmac=990d6358a47de02cd843a9357d2fa386323c4a5a3494aa65bba42d7dc725e41e&w=740"
+    ]
+  },
+  {
+    "name": "cheesecake",
+    "price": 150,
+    "category": "desserts",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/slices-homemade-new-york-cheesecake-top-view_114579-9374.jpg?t=st=1711967596~exp=1711971196~hmac=b9fb3c2e29baac01aa4583c3949e03ddc77a4efb69b44c9937c24313314870f6&w=740",
+
+      "https://img.freepik.com/free-photo/homemade-pumpkin-cheesecake_1232-2767.jpg?t=st=1711967614~exp=1711971214~hmac=4da59e5fa0d12950be79c8ed1d56e7e90d1f733507a9a9e4cdca5e905a77f45e&w=740",
+
+      "https://img.freepik.com/free-photo/cheese-cake-with-cup-hot-coffee-coffee-shop_1150-6437.jpg?t=st=1711967649~exp=1711971249~hmac=e325b325e0eecea2a9d7accbae67ac266692a42de39b734218988a4b6fd6a3ea&w=740"
+    ]
+  },
+  {
+    "name": "grilled watermellon",
+    "price": 150,
+    "category": "summer special",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/watermelon-old-wooden-background_1150-6157.jpg?t=st=1711967703~exp=1711971303~hmac=c7c060ad8647de00cda88fe9e06e6e7eefde35d8b50910a8a472d843bee3bfae&w=740",
+
+      "https://img.freepik.com/free-photo/watermelon-cut-into-pieces-dish-wooden-table_1150-21568.jpg?t=st=1711967719~exp=1711971319~hmac=1d95f882a50d9fdbf9a21e42e0fb0f3e14520e0d8539d65ba11dda6e792226f1&w=740",
+
+      "https://img.freepik.com/free-photo/watermelon-cut-into-pieces-dish-wooden-table_1150-21564.jpg?t=st=1711967739~exp=1711971339~hmac=3651c2775f452addf7020357d3519d839cf6f480157e79b8d9cd337bc55a47ff&w=740"
+    ]
+  },
+  {
+    "name": "mango coconut smoothie",
+    "price": 150,
+    "category": "summer special",
+    "discountPrice": 120,
+    "description": "desc",
+    "images": [
+      "https://img.freepik.com/free-photo/homemade-mango-yoghurt-marble-surface_1150-41963.jpg?t=st=1711968469~exp=1711972069~hmac=9a49cdf848ede45acd5a7f34253f1f6e4ae15b3859811a35a491684c56b20b46&w=740",
+
+      "https://img.freepik.com/premium-photo/mango-smoothie-glass-mason-jar-mango-old-wooden-background-mango-shake_247622-670.jpg?w=740",
+
+      "https://img.freepik.com/free-photo/delicious-pina-colada-cocktail-still-life_23-2150143232.jpg?t=st=1711968580~exp=1711972180~hmac=368f037940721d1e2c06f64d300bdcf99c7992b35cb4293489bd8fab2532cb09&w=360"
+    ]
+  }
+]
