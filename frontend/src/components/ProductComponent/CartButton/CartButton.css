@@ -1,0 +1,37 @@
+.buy-button-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.add-button,
+.subtract-button,
+.buy-button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.add-button:hover,
+.subtract-button:hover,
+.buy-button:hover {
+  background-color: #0056b3;
+}
+
+.quantity {
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+}
+
+.subtract-button, .add-button{
+  margin: 10px;
+  width:50px !important;
+  border-radius: 8px;
+}
+.buy-button{
+  width: 100%;
+  border-radius: 8px;
+}

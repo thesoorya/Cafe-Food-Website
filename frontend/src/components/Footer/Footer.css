@@ -1,0 +1,16 @@
+#Footer{
+    margin-top: 12%;
+    padding: 4% 5% 2%;
+    background-color: black;
+    color: white;
+}
+
+p{
+    word-wrap: break-word;
+}
+
+@media (max-width: 768px){
+    p{
+        font-size: 17px !important;
+    }
+}

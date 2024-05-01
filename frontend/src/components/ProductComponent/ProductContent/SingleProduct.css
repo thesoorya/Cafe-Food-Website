@@ -1,0 +1,36 @@
+#SingleProduct {
+  padding-top: 60px;
+}
+.productImgContainer {
+  aspect-ratio: 1/1 !important;
+  width: 100% !important;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.productImg {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+.productImg:hover {
+  scale: 1.1;
+}
+.productDesc {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.productDesc h1 {
+  font-size: 70px;
+}
+.productDesc p {
+  font-size: 30px;
+  margin: 0;
+}
+
+@media (max-width: 768px){
+  .productDesc h1 {
+    font-size: 40px;
+  }
+}

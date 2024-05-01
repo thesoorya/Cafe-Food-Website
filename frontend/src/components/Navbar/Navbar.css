@@ -1,0 +1,112 @@
+.NavBar {
+  position: absolute;
+  z-index: 999;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 5px;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  color: black;
+}
+.scrollActive {
+  background-color: white;
+  color: black;
+}
+.NavBar h2 {
+  margin: 0;
+  padding: 0;
+}
+.NavList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 50px;
+  padding: 0;
+  margin: 0;
+}
+.NavItems {
+  font-family: "Source Sans 3", sans-serif;
+  list-style: none;
+  font-size: 24px;
+}
+.AuthBtns{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.AuthButton{
+  width: 80px;
+  padding: 3px 0;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  margin: 0 5px;
+  transition: all .5s;
+}
+.CloseButton {
+  font-size: 24px;
+  display: none;
+  cursor: pointer;
+}
+.OpenButton {
+  font-size: 24px;
+  display: none;
+  cursor: pointer;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .NavList {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 40%;
+    background-color: white;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px 0;
+    transition: all 0.5s;   
+  }
+  .CloseButton {
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 6px;
+  }
+  .OpenButton {
+    display: block;
+  }
+  .ActiveActive {
+    position: fixed;
+    right: 0;
+  }
+  .DeActive{
+    display: none;
+  }
+  .AuthButton{
+    background-color: black;
+    color: white;
+  }
+}
+
+@media (max-width: 568px){
+  .NavList{
+    width: 100%;
+  }
+  .sticky .NavBar h2 {
+    color: white; /* Change text color to white when sticky */
+    background-color: transparent; /* Set background to transparent when sticky */
+  }
+}
