@@ -35,15 +35,14 @@ const Login = () => {
   };
 
   return (
-    <Container className='pt-5'>
-      <Row className="justify-content-center align-items-center py-5 mx-1 bg-info text-light rounded ">
+    <Container className="pt-5">
+      <Row className="justify-content-center align-items-center py-5 mx-1 bg-light text-dark rounded shadow-sm">
         <Col md={6}>
-          <h2>Login</h2>
+          <h2 className="text-center">Login</h2>
           <Form onSubmit={handleSubmit}>
-            <Form.Group controlId="formEmail">
+            <Form.Group controlId="formEmail" className="mb-3">
               <Form.Label>Email address</Form.Label>
               <Form.Control
-                className='mb-4'
                 type="email"
                 placeholder="Enter email"
                 name="email"
@@ -53,10 +52,9 @@ const Login = () => {
               />
             </Form.Group>
 
-            <Form.Group controlId="formPassword">
+            <Form.Group controlId="formPassword" className="mb-3">
               <Form.Label>Password</Form.Label>
               <Form.Control
-                className='mb-4'
                 type="password"
                 placeholder="Password"
                 name="password"
@@ -66,11 +64,11 @@ const Login = () => {
               />
             </Form.Group>
 
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" className="w-100">
               Login
             </Button>
           </Form>
-          <p className="mt-3">
+          <p className="mt-3 text-center">
             Don't have an account? <Link to="/register">Sign up here</Link>
           </p>
         </Col>

@@ -3,10 +3,6 @@ const { createFood, getFoods, getFoodsByCategory, getFoodsByDiscount, getFood, u
 const { verifyAdmin } = require("../utils/jwt")
 const router = express.Router()
 
-/* router.get("/rr", verifyAdmin, (req, res) => {
-    res.send("verified")
-}) */
-
 router.post("/", verifyAdmin,  createFood)
 router.get("/category", getFoodsByCategory)
 router.get("/discount", getFoodsByDiscount)

@@ -24,7 +24,7 @@ const Category = () => {
     return (
         <>
             <header id='Category'>
-                <h1 className='d-flex justify-content-center pb-3'>Model</h1>
+                <h1 className='d-flex justify-content-center pb-3'>{category}</h1>
                 <Container>
                     <Row className="d-flex justify-content-center g-4">
                         {foods.map((food, index) => (

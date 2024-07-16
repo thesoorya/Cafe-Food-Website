@@ -33,7 +33,6 @@ const RegisterComp = () => {
       if (response.ok) {
         console.log('Registration successful');
         window.alert('Registration successful!');
-
       } else {
         if (data.error && data.error === 'Email already exists') {
           setIsEmailRegistered(true); // Set the state to true if email is already registered
@@ -48,15 +47,14 @@ const RegisterComp = () => {
   };
 
   return (
-    <Container className='pt-5'>
-      <Row className="justify-content-center align-items-center py-5 mx-1 bg-info text-light rounded ">
+    <Container className="pt-5">
+      <Row className="justify-content-center align-items-center py-5 mx-1 bg-light text-dark rounded shadow-sm">
         <Col md={6}>
-          <h2>Register</h2>
+          <h2 className="text-center">Register</h2>
           <Form onSubmit={handleSubmit}>
-            <Form.Group controlId="formUsername">
+            <Form.Group controlId="formUsername" className="mb-3">
               <Form.Label>Username</Form.Label>
               <Form.Control
-                className='mb-3'
                 type="text"
                 placeholder="Enter username"
                 name="username"
@@ -66,10 +64,9 @@ const RegisterComp = () => {
               />
             </Form.Group>
 
-            <Form.Group controlId="formEmail">
+            <Form.Group controlId="formEmail" className="mb-3">
               <Form.Label>Email address</Form.Label>
               <Form.Control
-                className='mb-3'
                 type="email"
                 placeholder="Enter email"
                 name="email"
@@ -80,10 +77,9 @@ const RegisterComp = () => {
               {isEmailRegistered && <Form.Text className="text-danger">This email is already registered.</Form.Text>}
             </Form.Group>
 
-            <Form.Group controlId="formPassword">
+            <Form.Group controlId="formPassword" className="mb-3">
               <Form.Label>Create password</Form.Label>
               <Form.Control
-                className='mb-3'
                 type="password"
                 placeholder="Create password"
                 name="password"
@@ -93,11 +89,11 @@ const RegisterComp = () => {
               />
             </Form.Group>
 
-            <Button variant="primary" type="submit" disabled={isEmailRegistered}>
+            <Button variant="primary" type="submit" className="w-100" disabled={isEmailRegistered}>
               Sign up
             </Button>
           </Form>
-          <p className="mt-3">
+          <p className="mt-3 text-center">
             Already registered? <Link to="/login">Log in here</Link>
           </p>
         </Col>
