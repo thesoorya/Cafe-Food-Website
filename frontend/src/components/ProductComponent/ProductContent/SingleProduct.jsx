@@ -37,7 +37,7 @@ const SingleProduct = () => {
     }
 
     return (
-        <header id='SingleProduct'>
+        <header id='SingleProduct' className='mb-5'>
             <Container>
                 <Row>
                     <Col xs={12} lg={6}>
