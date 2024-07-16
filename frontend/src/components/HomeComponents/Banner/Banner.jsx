@@ -9,7 +9,7 @@ const Banner = () => {
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/foods/items/categories")
+    axios.get("https://foodstore-backend-xu6z.onrender.com/foods/items/categories")
       .then((res) => {
         setCategories(res.data.data)
       })

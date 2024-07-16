@@ -14,7 +14,7 @@ const SingleProduct = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get(`http://localhost:5000/foods/itemsname/${name}`);
+                const response = await axios.get(`https://foodstore-backend-xu6z.onrender.com/foods/itemsname/${name}`);
                 setFood(response.data.data);
                 setLoading(false);
             } catch (error) {

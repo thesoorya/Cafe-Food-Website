@@ -7,7 +7,7 @@ const SummerSpecial = () => {
     const [foods, setFoods] = useState([]);
 
     useEffect(() => {
-        axios.get("http://localhost:5000/foods/category?category=summer special&limit=7")
+        axios.get("https://foodstore-backend-xu6z.onrender.com/foods/category?category=summer special&limit=7")
             .then((res) => {
                 setFoods(res.data.data);
             })

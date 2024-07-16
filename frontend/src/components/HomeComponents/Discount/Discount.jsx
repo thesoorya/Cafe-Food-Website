@@ -9,7 +9,7 @@ const Discount = () => {
     const [foods, setFoods] = useState([])
 
     useEffect(() => {
-        axios.get("http://localhost:5000/foods/discount?discount=true&limit=3")
+        axios.get("https://foodstore-backend-xu6z.onrender.com/foods/discount?discount=true&limit=3")
             .then((res) => {
                 setFoods(res.data.data)
             })
